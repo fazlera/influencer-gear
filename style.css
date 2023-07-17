@@ -2,7 +2,7 @@
 
 * {
   margin: 0;
-  padding: 5px 20px;
+  padding: 5px 30px;
   font-family: "Poppins", sans-serif;
 }
 /* shared items */
@@ -21,6 +21,30 @@
 }
 .header-menu-container > ul {
   display: flex;
+}
+.influencer-title {
+  width: 582px;
+  height: 133px;
+  flex-shrink: 0;
+  color: #3a3a3a;
+
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+.influencer-description {
+  width: 505px;
+  height: 60.9px;
+  flex-shrink: 0;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.influencer-btn {
+  margin-left: 30px;
 }
 .header-menu-container li {
   list-style: none;
@@ -54,18 +78,23 @@
 /* company-logo style end */
 
 /* collection-container style start */
-.collection-container{
-    margin-top: 100px;
+.collection-container {
+  margin-top: 100px;
 }
 
-.collection-title{
-    text-align: center;
-    padding: 30px 0;
+.collection-title {
+  text-align: center;
+  padding: 30px 0;
+  color: #3a3a3a;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
 }
-.collection-items{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 50px;
+.collection-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
 }
 .box-item {
   width: 275px;
@@ -73,7 +102,7 @@
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-  
+  margin: 0 auto;
 }
 .box-item-img {
   width: 300px;
@@ -82,7 +111,7 @@
   object-fit: cover;
   margin: 0 auto;
   position: relative;
-  left: -35px;
+  left: -45px;
 }
 .box-item-short-descrip {
   width: 190px;
@@ -90,9 +119,31 @@
 }
 
 /* featured-container style start */
-.featured-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
+.featured-container {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  padding: 0 70px;
+  gap: 100px;
+}
+.featured-title {
+  color: #0a0826;
+
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+}
+.featured-description {
+  width: 501px;
+  height: 88px;
+  color: #6c6c6c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.featured-btn {
+  border-radius: 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-left: 30px;
 }
