@@ -22,6 +22,9 @@
 .header-menu-container > ul {
   display: flex;
 }
+.menu-block{
+  display: none;
+}
 .influencer-title {
   width: 582px;
   height: 133px;
@@ -73,7 +76,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  padding: 10px 0;
+  padding: 10px 0px;
 }
 /* company-logo style end */
 
@@ -183,4 +186,44 @@
 }
 .fa-brands{
   color: rgba(255, 255, 255, 1);
+}
+
+
+/* influencer-footer style  end */
+
+/* responsive style  */
+
+@media screen and (max-width:576px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .header-container,.header-menu-container > ul{
+    flex-direction: column;  
+  }
+  .influencer-container{
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+  }
+  .company-logo{
+   flex-direction: column;
+   
+ 
+  }
+  .collection-items{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .featured-container{
+    flex-direction: column-reverse;
+    text-align: center;
+    
+  }
+  .featured-description{
+    width: 400px;
+    font-size: 20px;
+  }
+  
+ 
 }
