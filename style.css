@@ -147,3 +147,40 @@
   font-size: 20px;
   margin-left: 30px;
 }
+
+/* influencer-footer style */
+.influencer-footer {
+  height: 40vh;
+  background-color: #0A0826;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.footer-title {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-desc {
+  color: #d9dbe1;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+.footer-short {
+  color: #d9dbe1;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.fa-brands{
+  color: rgba(255, 255, 255, 1);
+}
