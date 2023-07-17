@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 5px 20px;
+  font-family: "Poppins", sans-serif;
+}
+/* shared items */
+.btn-primary {
+  border-radius: 41px;
+  background: #e02c6d;
+  color: white;
+  border: none;
+}
+
+/* header style  start */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu-container > ul {
+  display: flex;
+}
+.header-menu-container li {
+  list-style: none;
+  margin-right: -15px;
+}
+/* header style end  */
+
+/* influencer-container style start */
+.influencer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.influencer-image {
+  background-image: url(./images/Circle\ design.svg);
+  background-repeat: no-repeat;
+}
+.influencer-title {
+  color: #3a3a3a;
+  font-size: 45px;
+  font-weight: 700;
+}
+/* company-logo style start */
+.company-logo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px 0;
+}
+/* company-logo style end */
+
+/* collection-container style start */
+.collection-container{
+    margin-top: 100px;
+}
+
+.collection-title{
+    text-align: center;
+    padding: 30px 0;
+}
+.collection-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.box-item {
+  width: 275px;
+  height: 440px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  
+}
+.box-item-img {
+  width: 300px;
+  height: 256px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin: 0 auto;
+  position: relative;
+  left: -35px;
+}
+.box-item-short-descrip {
+  width: 190px;
+  font-size: 14px;
+}
+
+/* featured-container style start */
+.featured-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
